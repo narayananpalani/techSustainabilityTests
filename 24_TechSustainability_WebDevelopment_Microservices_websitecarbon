@@ -1,0 +1,68 @@
+Test Case: Web Development for Tech Sustainability using WebsiteCarbon Scanner
+
+**Test Case ID:** WDCS-001  
+**Test Case Title:** Web Development for Tech Sustainability using WebsiteCarbon Scanner
+
+**Objective:** To use the https://www.websitecarbon.com/ scanner to analyze a web page's carbon footprint and identify areas for improvement to enhance technical sustainability.
+
+**Preconditions:**
+1. Access to a web development environment.
+2. Internet connectivity to access https://www.websitecarbon.com/.
+
+**Test Steps:**
+
+**Step 1:** Access WebsiteCarbon Scanner
+
+1. Open a web browser.
+2. Navigate to https://www.websitecarbon.com/.
+
+**Expected Result:** The WebsiteCarbon scanner page should load successfully.
+
+**Step 2:** Scan the Target Web Page
+
+1. On the WebsiteCarbon scanner page, enter the URL of the web page you want to analyze.
+2. Click the "Calculate" or "Scan" button to initiate the scanning process.
+3. Wait for the scan to complete and the results to be displayed.
+
+**Expected Result:** The scan should provide insights into the web page's carbon footprint, including the estimated amount of CO2 emissions produced during its loading.
+
+**Step 3:** Analyze Scan Results
+
+1. Review the scan results, which typically include metrics such as page weight, CO2 emissions, and potential savings.
+2. Identify areas of improvement highlighted in the scan report, such as large images, excessive JavaScript, inefficient CSS, etc.
+
+**Expected Result:** The scan results should provide actionable insights into aspects of the web page that contribute to its carbon footprint.
+
+**Step 4:** Optimize Web Page Elements
+
+1. Based on the scan results, apply optimization techniques to the identified areas of improvement. For example:
+   - Compress and resize images.
+   - Minify and concatenate JavaScript and CSS files.
+   - Optimize server response times.
+   - Reduce unnecessary third-party scripts and tracking.
+
+**Expected Result:** The identified areas of improvement should be addressed through optimization techniques.
+
+**Step 5:** Re-scan the Optimized Web Page
+
+1. After making the optimizations, return to the WebsiteCarbon scanner.
+2. Enter the URL of the optimized web page.
+3. Perform another scan by clicking the "Calculate" or "Scan" button.
+
+**Expected Result:** The re-scan should reflect reduced CO2 emissions and improved sustainability metrics compared to the initial scan.
+
+**Step 6:** Compare Scan Results
+
+1. Compare the scan results before and after optimization to assess the impact of the changes made.
+2. Note the improvements in terms of CO2 emissions, page weight reduction, and potential savings.
+
+**Expected Result:** The comparison should demonstrate the positive effects of optimization on the web page's carbon footprint.
+
+**Postconditions:**
+1. The target web page's carbon footprint has been analyzed using the WebsiteCarbon scanner.
+2. Optimization techniques have been applied to improve the web page's technical sustainability.
+3. Scan results, optimization actions, and their impact are documented for future reference.
+
+**Notes:**
+- The specific optimization techniques applied may vary depending on the findings from the scan results.
+- Regular monitoring and optimization of web pages can contribute to reducing carbon emissions and enhancing overall tech sustainability.
