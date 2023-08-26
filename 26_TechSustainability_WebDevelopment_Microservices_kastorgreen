@@ -1,0 +1,95 @@
+Test Case: Web Development for Tech Sustainability - Page Scanning on https://kastor.green/
+
+**Test Case ID:** WDTS-001  
+**Test Case Title:** Web Development for Tech Sustainability - Page Scanning on https://kastor.green/
+
+**Objective:** To verify the web development efforts aimed at improving tech sustainability on the https://kastor.green/ website through effective page scanning techniques.
+
+**Preconditions:**
+1. Access to a web browser with internet connectivity.
+2. Familiarity with web development principles and sustainability concepts.
+
+**Test Steps:**
+
+**Step 1:** Open the Website
+
+1. Launch a web browser.
+2. Enter the URL "https://kastor.green/" in the address bar and press Enter.
+3. Wait for the website to load.
+
+**Expected Result:** The https://kastor.green/ website should load successfully, displaying its content and interface.
+
+**Step 2:** Verify Page Loading Speed
+
+1. Use a web development tool or browser extension to measure the page loading speed.
+2. Note the time it takes for the website to fully load.
+
+**Expected Result:** The page loading speed should be optimized for quick access, aligning with tech sustainability principles.
+
+**Step 3:** Inspect HTML and CSS Structure
+
+1. Use the browser's developer tools to inspect the HTML structure of the website's pages.
+2. Examine the use of semantic HTML elements and proper nesting.
+3. Inspect the CSS styles to ensure efficient and organized styling.
+
+**Expected Result:** The HTML and CSS structure should follow best practices for clean, semantic, and maintainable code.
+
+**Step 4:** Analyze Image Usage
+
+1. Inspect the website's images, including graphics, icons, and backgrounds.
+2. Check if images are optimized for web use to reduce file size and improve loading speed.
+3. Verify the use of image formats suitable for different content types (e.g., JPEG for photographs, SVG for icons).
+
+**Expected Result:** Images should be properly optimized, using appropriate formats, and contributing to a sustainable web experience.
+
+**Step 5:** Evaluate JavaScript Efficiency
+
+1. Analyze the website's use of JavaScript for interactivity and functionality.
+2. Check for excessive use of JavaScript libraries or frameworks that might impact loading speed.
+3. Ensure that JavaScript code follows best practices for readability and efficiency.
+
+**Expected Result:** JavaScript should be used judiciously, with optimized code that enhances user experience without compromising loading speed.
+
+**Step 6:** Check Responsiveness and Mobile Optimization
+
+1. Resize the browser window or use browser developer tools to emulate different screen sizes.
+2. Verify that the website's layout and content adjust smoothly to different screen sizes.
+3. Test touch interactions on mobile devices to ensure responsiveness.
+
+**Expected Result:** The website should be fully responsive and optimized for seamless mobile experiences.
+
+**Step 7:** Review Content Accessibility
+
+1. Use accessibility tools or browser extensions to evaluate the website's accessibility.
+2. Check for proper semantic structure, alt text for images, and keyboard navigation support.
+
+**Expected Result:** The website should adhere to accessibility guidelines, making it usable by a diverse range of users.
+
+**Step 8:** Test Cross-Browser Compatibility
+
+1. Open the website in different web browsers (e.g., Chrome, Firefox, Safari).
+2. Ensure that the website's layout and functionality remain consistent across browsers.
+
+**Expected Result:** The website should function correctly and display consistently on different web browsers.
+
+**Step 9:** Evaluate Page Scanning Efficiency
+
+1. Attempt to scan the page's content quickly without reading every detail.
+2. Check if the content structure, headings, and visuals facilitate easy and quick comprehension.
+
+**Expected Result:** The content should be organized in a way that allows users to grasp essential information quickly.
+
+**Step 10:** Provide Feedback
+
+1. Document any issues, suggestions, or improvements observed during the testing process.
+2. If applicable, share feedback with the development team for consideration.
+
+**Expected Result:** Feedback should be shared constructively, addressing areas that can enhance the website's tech sustainability.
+
+**Postconditions:**
+1. The web development efforts on https://kastor.green/ have been assessed for tech sustainability improvement through effective page scanning techniques.
+2. Feedback and observations are documented for further action.
+
+**Notes:**
+- The test case assumes that the tester is knowledgeable about web development concepts and sustainability principles.
+- The specific tools and methods used for testing may vary based on the tester's preferences and expertise.
