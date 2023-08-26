@@ -1,0 +1,76 @@
+Test Case: Mobile App Battery Usage Reduction for Improved Tech Sustainability
+
+**Test Case ID:** MABUR-001  
+**Test Case Title:** Mobile App Battery Usage Reduction for Improved Tech Sustainability
+
+**Objective:** To verify the implementation of mobile app features aimed at reducing battery usage and promoting sustainable technology usage.
+
+**Preconditions:**
+1. A mobile app with battery usage reduction features is available for testing.
+2. The mobile app is installed and running on a compatible device.
+
+**Test Steps:**
+
+**Step 1:** Open the App
+
+1. Launch the mobile app with the battery usage reduction features.
+
+**Expected Result:** The app should open successfully and display its user interface.
+
+**Step 2:** Verify Battery Usage Reduction Features
+
+1. Access the app's settings or preferences.
+2. Locate the battery usage reduction features, such as "Battery Saver Mode," "Power Optimization," or similar.
+
+**Expected Result:** The battery usage reduction features should be clearly labeled and accessible within the app's settings.
+
+**Step 3:** Enable Battery Usage Reduction
+
+1. Enable the battery usage reduction feature within the app's settings.
+
+**Expected Result:** The selected battery usage reduction feature should be activated.
+
+**Step 4:** Test App Functionality with Battery Usage Reduction
+
+1. Use various functionalities of the app while the battery usage reduction feature is enabled.
+2. Interact with app elements, perform tasks, and navigate through screens.
+
+**Expected Result:** The app should function as expected, but with optimized battery usage and potentially reduced animations or background processes.
+
+**Step 5:** Monitor Battery Consumption
+
+1. Exit the app and use the device for a reasonable amount of time (e.g., 1 hour).
+2. Monitor the battery consumption of the app compared to its usage without the battery usage reduction feature enabled.
+
+**Expected Result:** The app's battery consumption should be notably reduced when the battery usage reduction feature is enabled.
+
+**Step 6:** Disable Battery Usage Reduction (Optional)
+
+1. Return to the app's settings.
+2. Disable the battery usage reduction feature.
+
+**Expected Result:** The battery usage reduction feature should be successfully disabled.
+
+**Step 7:** Assess User Experience
+
+1. Consider the overall user experience while the battery usage reduction feature is active.
+2. Evaluate whether any critical functionality is affected negatively.
+
+**Expected Result:** The user experience should remain positive, and any potential trade-offs between battery savings and functionality should be minimal.
+
+**Step 8:** Test Different Use Cases
+
+1. Test the app's battery usage reduction feature under various scenarios, such as:
+   - Active usage (browsing, interacting)
+   - Background usage (notifications, updates)
+   - Offline usage (when connectivity is disabled)
+
+**Expected Result:** The app's battery usage reduction feature should consistently provide optimized battery usage in different use cases.
+
+**Postconditions:**
+1. The mobile app's battery usage reduction features have been successfully tested for improved tech sustainability.
+2. Any issues or unexpected behavior encountered during testing are documented.
+
+**Notes:**
+- The test cases are based on the assumption that the app has implemented battery usage reduction features. The specific implementation may vary based on the app's functionality and the development team's choices.
+- Testing should also take into consideration any potential impact on the user experience or functionality due to reduced animations or background processes.
