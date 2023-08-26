@@ -1,0 +1,77 @@
+Test Case: Web Development Sustainability Test using WeDeex Plugin
+
+**Test Case ID:** WDS-001  
+**Test Case Title:** Web Development Sustainability Test using WeDeex Plugin
+
+**Objective:** To verify the effectiveness of the WeDeex plugin in improving the technical sustainability of a web page during the development process.
+
+**Preconditions:**
+1. A web page under development with WeDeex plugin integrated.
+2. Relevant development environment and tools are set up.
+3. The WeDeex plugin is installed and configured.
+
+**Test Steps:**
+
+**Step 1:** Open Web Page in Development Environment
+
+1. Launch the web development environment.
+2. Open the web page under development.
+
+**Expected Result:** The web page should load successfully in the development environment.
+
+**Step 2:** Activate WeDeex Plugin
+
+1. Access the WeDeex plugin within the development environment.
+2. Activate the plugin on the current web page.
+
+**Expected Result:** The WeDeex plugin should be successfully activated on the web page.
+
+**Step 3:** Run WeDeex Analysis
+
+1. Initiate the WeDeex analysis process on the web page.
+2. Allow the plugin to scan the page for sustainability-related issues.
+
+**Expected Result:** The WeDeex plugin should complete the analysis without errors and provide a summary of findings.
+
+**Step 4:** Review WeDeex Recommendations
+
+1. Examine the list of sustainability-related recommendations provided by the WeDeex plugin.
+2. Check the severity level and description of each recommendation.
+
+**Expected Result:** The recommendations should be clear and relevant, addressing areas where the web page's technical sustainability can be improved.
+
+**Step 5:** Implement WeDeex Recommendations
+
+1. Based on the recommendations, make necessary changes to the web page's code and structure.
+2. Apply the suggested optimizations to enhance the page's sustainability.
+
+**Expected Result:** The recommended changes should be implemented accurately, and the code should remain error-free.
+
+**Step 6:** Test Web Page Performance
+
+1. Load the modified web page in different web browsers and devices.
+2. Evaluate the page's performance, loading speed, and responsiveness.
+
+**Expected Result:** The modified web page should perform better in terms of speed and responsiveness, demonstrating improved sustainability.
+
+**Step 7:** Validate Accessibility
+
+1. Run accessibility tests on the modified web page using relevant tools or plugins.
+2. Ensure that the accessibility features of the page have not been compromised by the sustainability improvements.
+
+**Expected Result:** The web page's accessibility should still meet relevant accessibility standards after implementing the sustainability improvements.
+
+**Step 8:** Verify Code Quality
+
+1. Use code analysis tools to validate the quality of the modified code.
+2. Ensure that the code remains clean, maintainable, and follows best practices.
+
+**Expected Result:** The code quality should not degrade, and the modifications should align with coding standards.
+
+**Postconditions:**
+1. The web page's technical sustainability has been tested and improved using the WeDeex plugin.
+2. All changes and improvements are documented for reference.
+
+**Notes:**
+- The WeDeex plugin's features, recommendations, and implementation steps may vary based on its functionality and the web development environment used.
+- It's important to thoroughly test the web page after implementing changes to ensure that both technical sustainability and functionality are maintained.
