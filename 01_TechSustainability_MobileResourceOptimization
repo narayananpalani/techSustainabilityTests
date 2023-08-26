@@ -1,0 +1,89 @@
+Test Case: Mobile Device Resource Utilization for Improved Tech Sustainability
+
+**Test Case ID:** MDRTU-001  
+**Test Case Title:** Mobile Device Resource Utilization for Improved Tech Sustainability
+
+**Objective:** To verify that a mobile device efficiently utilizes resources to contribute to improved tech sustainability.
+
+**Preconditions:**
+1. A mobile device with the latest software update and compatible hardware is available.
+
+**Test Steps:**
+
+**Step 1:** Assess Device Hardware and Software
+
+1. Examine the mobile device's specifications, including processor, RAM, storage, and battery capacity.
+2. Verify that the device is running the latest software update.
+
+**Expected Result:** The device specifications and software version are documented and ready for testing.
+
+**Step 2:** Launch Basic Apps
+
+1. Open the device's basic apps, such as Phone, Messages, Clock, Calculator.
+2. Monitor CPU, RAM, and battery usage using the device's built-in tools or third-party apps.
+
+**Expected Result:** Basic app usage shows minimal CPU and RAM utilization, and battery drain is minimal.
+
+**Step 3:** Test Multitasking
+
+1. Open multiple apps simultaneously, switching between them frequently.
+2. Monitor how the device handles multitasking and resource utilization.
+
+**Expected Result:** The device maintains smooth performance and optimal resource utilization during multitasking.
+
+**Step 4:** Run Resource-Intensive Apps
+
+1. Open apps that are known to be resource-intensive, such as games or video editing apps.
+2. Monitor CPU, RAM, and battery usage during the usage of these apps.
+
+**Expected Result:** Resource-intensive apps utilize resources efficiently without causing excessive battery drain or performance degradation.
+
+**Step 5:** Test Standby Mode
+
+1. Let the device enter standby mode (screen off) for a period of time.
+2. Monitor battery consumption during standby.
+
+**Expected Result:** Battery consumption during standby is minimal, demonstrating efficient power management.
+
+**Step 6:** Test Adaptive Brightness
+
+1. Enable adaptive brightness in the device's display settings.
+2. Use the device in various lighting conditions to observe the display's automatic brightness adjustments.
+
+**Expected Result:** The device's display adapts to different lighting conditions, conserving battery without compromising usability.
+
+**Step 7:** Test Battery Saver Mode
+
+1. Enable the device's battery saver mode.
+2. Monitor changes in performance, background activity, and resource utilization.
+
+**Expected Result:** Battery saver mode reduces background activity and adjusts performance to extend battery life.
+
+**Step 8:** Monitor Temperature
+
+1. Use resource-intensive apps or activities for an extended period.
+2. Monitor the device's temperature using built-in tools or third-party apps.
+
+**Expected Result:** The device temperature remains within safe limits during resource-intensive usage.
+
+**Step 9:** Evaluate Power-Hungry Features
+
+1. Test power-hungry features such as GPS, high-resolution video recording, and mobile data usage.
+2. Observe their impact on battery life and resource utilization.
+
+**Expected Result:** Power-hungry features consume resources as expected while providing necessary functionality.
+
+**Step 10:** Test Device Recovery from Low Battery
+
+1. Allow the device's battery to drain to a low level.
+2. Observe the device's behavior and performance after charging it to an acceptable level.
+
+**Expected Result:** The device recovers and operates normally after recharging.
+
+**Postconditions:**
+1. The mobile device's resource utilization for improved tech sustainability has been successfully tested.
+2. Any performance issues, resource inefficiencies, or anomalies encountered during testing are documented.
+
+**Notes:**
+- Resource utilization may vary based on the specific device model, software version, and usage scenarios.
+- The test case focuses on how a mobile device efficiently manages resources to contribute to improved tech sustainability and user experience.
