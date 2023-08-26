@@ -1,0 +1,85 @@
+Test Case: Integration of ecoCode Plugin for SonarQube in Jenkins
+
+**Test Case ID:** WDM-ECO-001  
+**Test Case Title:** Integration of ecoCode Plugin for SonarQube in Jenkins
+
+**Objective:** To verify the successful integration of the ecoCode plugin for SonarQube in Jenkins, enabling the use of the eco-conception tag to filter and improve technical sustainability.
+
+**Preconditions:**
+1. A Jenkins instance with the ecoCode plugin and SonarQube plugin installed and configured.
+2. The eco-conception tag is defined in the project's SonarQube settings.
+
+**Test Steps:**
+
+**Step 1:** Access Jenkins Dashboard
+
+1. Open a web browser.
+2. Navigate to the Jenkins dashboard.
+
+**Expected Result:** The Jenkins dashboard should load successfully.
+
+**Step 2:** Access Jenkins Project
+
+1. Locate the project where the ecoCode plugin integration is being tested.
+2. Click on the project to access its configuration.
+
+**Expected Result:** The project configuration screen should open.
+
+**Step 3:** Configure ecoCode Plugin
+
+1. Inside the project configuration, find the section related to post-build actions or integrations.
+2. Locate and configure the ecoCode plugin settings.
+3. Ensure the SonarQube server and project details are correctly provided.
+
+**Expected Result:** The ecoCode plugin is properly configured with the SonarQube server and project details.
+
+**Step 4:** Configure eco-conception Tag
+
+1. Within the ecoCode plugin settings, find the option to enable the eco-conception tag for filtering.
+2. Enable the option and specify the eco-conception tag.
+3. Save the configuration.
+
+**Expected Result:** The eco-conception tag is enabled and properly configured.
+
+**Step 5:** Trigger a Jenkins Build
+
+1. Return to the Jenkins dashboard.
+2. Find and manually trigger a build for the configured project.
+
+**Expected Result:** The Jenkins build is successfully triggered.
+
+**Step 6:** Monitor Build Execution
+
+1. Monitor the build execution and observe any logs or notifications related to the ecoCode plugin and SonarQube integration.
+
+**Expected Result:** The build should execute without errors, and the ecoCode plugin should communicate with SonarQube properly.
+
+**Step 7:** Verify eco-conception Tag Filter
+
+1. Access the SonarQube dashboard for the project being tested.
+2. Navigate to the project's code analysis results.
+3. Verify that the eco-conception tag has been applied and that code related to eco-conception improvements is highlighted.
+
+**Expected Result:** The eco-conception tag is properly applied, and code related to eco-conception improvements is highlighted or tagged.
+
+**Step 8:** Verify Technical Sustainability Improvements
+
+1. Inspect the specific code snippets highlighted or tagged as eco-conception improvements.
+2. Review the provided suggestions or recommendations for improving technical sustainability.
+
+**Expected Result:** The highlighted code snippets have relevant suggestions or recommendations for improving technical sustainability.
+
+**Step 9:** Validate Reporting and Metrics
+
+1. Navigate to the reporting section of the SonarQube dashboard.
+2. Verify that the eco-conception metrics and insights are correctly reported.
+
+**Expected Result:** The eco-conception metrics and insights are reported accurately.
+
+**Postconditions:**
+1. The ecoCode plugin for SonarQube integration in Jenkins has been successfully tested.
+2. Any issues or discrepancies encountered during testing are documented.
+
+**Notes:**
+- This test case assumes that the ecoCode plugin, SonarQube, and Jenkins are correctly installed and configured.
+- The specific steps and configuration options may vary based on the plugin versions and configurations.
