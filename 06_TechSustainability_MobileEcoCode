@@ -1,0 +1,70 @@
+Test Case: Mobile App Optimization using ecoCode-Mobile in SonarQube via Jenkins
+
+**Test Case ID:** MEOE-001  
+**Test Case Title:** Mobile App Optimization using ecoCode-Mobile in SonarQube via Jenkins
+
+**Objective:** To verify the mobile app optimization process using ecoCode-Mobile in SonarQube through Jenkins and to check the filtered eco-conception tags to improve technical sustainability.
+
+**Preconditions:**
+1. A mobile app project with its source code available in a version control system (e.g., Git).
+2. Jenkins CI/CD environment is set up and configured.
+3. SonarQube is integrated with Jenkins for code analysis.
+
+**Test Steps:**
+
+**Step 1:** Trigger SonarQube Analysis
+
+1. In Jenkins, initiate a build for the mobile app project.
+2. As part of the build process, run the SonarQube analysis on the app's source code using the ecoCode-Mobile plugin.
+
+**Expected Result:** The SonarQube analysis should be successfully triggered with the ecoCode-Mobile plugin enabled.
+
+**Step 2:** Access SonarQube Dashboard
+
+1. Open a web browser and navigate to the SonarQube instance.
+2. Log in with appropriate credentials.
+3. Locate the project for the mobile app under analysis.
+
+**Expected Result:** The SonarQube project dashboard for the mobile app should be displayed.
+
+**Step 3:** Review eco-conception Tags
+
+1. Within the SonarQube project dashboard, navigate to the "eco-conception" or similar section.
+2. Check for tags related to eco-conception aspects like energy efficiency, resource usage, and overall sustainability.
+
+**Expected Result:** The eco-conception tags related to the mobile app's technical sustainability should be visible.
+
+**Step 4:** Filter eco-conception Tags
+
+1. Within the "eco-conception" section, use the filtering options to display specific eco-conception tags (e.g., energy, resource, waste).
+2. Apply the filtering criteria.
+
+**Expected Result:** The list of eco-conception tags should be filtered based on the selected criteria.
+
+**Step 5:** Analyze eco-conception Results
+
+1. Click on a specific eco-conception tag to view detailed analysis results and suggestions for improvement.
+2. Review the identified issues and recommended solutions.
+
+**Expected Result:** Detailed analysis results for the selected eco-conception tag should be displayed, including actionable recommendations for improving technical sustainability.
+
+**Step 6:** Implement eco-conception Improvements
+
+1. Address the issues identified in the eco-conception analysis by making appropriate changes to the mobile app's source code.
+2. Apply the recommended improvements to enhance the app's eco-conception aspects.
+
+**Expected Result:** The recommended improvements for eco-conception are successfully implemented in the mobile app's source code.
+
+**Step 7:** Re-run SonarQube Analysis
+
+1. Trigger another SonarQube analysis for the mobile app after implementing the eco-conception improvements.
+2. Check that the eco-conception tags are updated based on the implemented changes.
+
+**Expected Result:** The updated analysis should reflect the improvements made to the mobile app's eco-conception aspects.
+
+**Postconditions:**
+1. The mobile app's code has undergone eco-conception analysis using ecoCode-Mobile in SonarQube via Jenkins.
+2. eco-conception improvements have been implemented to enhance the app's technical sustainability.
+
+**Notes:**
+- The steps and options mentioned in this test case are based on the assumption of SonarQube's capabilities and its integration with Jenkins, including the ecoCode-Mobile plugin. Actual configurations and steps may vary based on specific setup and tool versions.
