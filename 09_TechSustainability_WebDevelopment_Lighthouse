@@ -1,0 +1,79 @@
+Test Case: Web Development Optimization through Google Lighthouse Scan Settings using web.dev Measures for Tech Sustainability
+
+**Test Case ID:** WDGL-001  
+**Test Case Title:** Web Development Optimization through Google Lighthouse Scan Settings using web.dev Measures for Tech Sustainability
+
+**Objective:** To verify that a web application follows best practices for optimization and tech sustainability by utilizing Google Lighthouse scan settings based on web.dev recommendations.
+
+**Preconditions:**
+1. A web application is available for testing.
+2. Google Lighthouse is accessible and configured for testing the web application.
+3. The web application has been designed with a focus on improving tech sustainability.
+
+**Test Steps:**
+
+**Step 1:** Access the Web Application
+
+1. Open the web application in a web browser.
+
+**Expected Result:** The web application should load successfully.
+
+**Step 2:** Open Google Lighthouse
+
+1. Use the browser's developer tools to access the Google Lighthouse tool.
+2. Configure Lighthouse to perform a scan of the web application.
+
+**Expected Result:** Google Lighthouse should be opened and ready to run a scan.
+
+**Step 3:** Run Lighthouse Scan with Default Settings
+
+1. Start the Lighthouse scan using the default settings.
+
+**Expected Result:** Lighthouse should perform a scan of the web application and generate a report based on default settings.
+
+**Step 4:** Verify Performance Metrics
+
+1. Review the Lighthouse report for performance metrics, including:
+   - Page load time
+   - Time to interactive
+   - First Contentful Paint
+   - Largest Contentful Paint
+   - Cumulative Layout Shift
+
+**Expected Result:** The web application's performance metrics should be within acceptable ranges as per web.dev recommendations.
+
+**Step 5:** Review Accessibility and Best Practices
+
+1. Inspect the Lighthouse report for accessibility and best practices recommendations.
+2. Verify that the web application meets the recommended accessibility standards and best practices.
+
+**Expected Result:** The web application should comply with accessibility guidelines and best practices as recommended by web.dev.
+
+**Step 6:** Analyze SEO and Tech Sustainability
+
+1. Examine the Lighthouse report for SEO and tech sustainability suggestions.
+2. Ensure that the web application follows sustainable tech practices, including minimizing resource usage and optimizing for mobile devices.
+
+**Expected Result:** The web application should adhere to recommended SEO guidelines and tech sustainability practices.
+
+**Step 7:** Rerun Lighthouse Scan with Custom Settings
+
+1. Modify the Lighthouse scan settings to target specific metrics or aspects of the web application's performance.
+2. Run the Lighthouse scan again with the custom settings.
+
+**Expected Result:** Lighthouse should generate a report based on the custom settings, highlighting specific performance areas for improvement.
+
+**Step 8:** Verify Changes and Improvements
+
+1. Implement the recommended changes based on the Lighthouse reports.
+2. Rerun Lighthouse scans to confirm improvements in performance, accessibility, best practices, and tech sustainability.
+
+**Expected Result:** The subsequent Lighthouse scans should show improvements in the targeted areas.
+
+**Postconditions:**
+1. The web application has been tested using Google Lighthouse scan settings and web.dev measures for optimization and tech sustainability.
+2. All findings, changes, and improvements are documented for reference.
+
+**Notes:**
+- Google Lighthouse settings can be adjusted to focus on different aspects of web performance and optimization.
+- Web.dev recommendations may evolve over time, so it's important to ensure the application adheres to the latest best practices.
