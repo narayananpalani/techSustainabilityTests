@@ -1,0 +1,67 @@
+Test Case: Mobile App Battery Usage Check through Battery Historian in Docker
+
+**Test Case ID:** MBATTH-001  
+**Test Case Title:** Mobile App Battery Usage Check through Battery Historian in Docker
+
+**Objective:** To assess mobile app battery usage through Battery Historian installation in Docker and identify potential areas for improving tech sustainability.
+
+**Preconditions:**
+1. An Android device with USB debugging enabled.
+2. A computer with Docker installed.
+3. A mobile app to be tested installed on the Android device.
+4. A stable internet connection for downloading Battery Historian.
+
+**Test Steps:**
+
+**Step 1:** Install and Set Up Battery Historian in Docker
+
+1. On the computer, open a terminal or command prompt.
+2. Pull the Battery Historian Docker image using the command: `docker pull gcr.io/android-battery-historian/stable:3.0`
+3. Start the Battery Historian container with the command: `docker run -p 9999:9999 gcr.io/android-battery-historian/stable:3.0`
+4. Access Battery Historian by opening a web browser and navigating to `http://localhost:9999`.
+
+**Expected Result:** Battery Historian should be successfully set up and accessible in the web browser.
+
+**Step 2:** Capture Battery Data
+
+1. Connect the Android device to the computer using a USB cable.
+2. Ensure that the Android device is set to developer mode and USB debugging is enabled.
+3. On the computer, run the following command to capture battery data:
+   ```
+   adb shell dumpsys batterystats --enable full-wake-history
+   adb bugreport > bugreport.txt
+   ```
+
+**Expected Result:** The battery data and bug report are captured and saved as `bugreport.txt`.
+
+**Step 3:** Analyze Battery Usage with Battery Historian
+
+1. On the Battery Historian web interface, click on the "Choose File" button.
+2. Select the `bugreport.txt` file captured earlier and upload it.
+3. Analyze the battery usage data displayed by Battery Historian, focusing on the specific mobile app being tested.
+
+**Expected Result:** The Battery Historian interface should display detailed battery usage information for the selected app, highlighting areas of high battery consumption.
+
+**Step 4:** Identify Areas for Improvement
+
+1. Review the battery usage metrics provided by Battery Historian, including CPU usage, network activity, and wake locks.
+2. Identify specific areas where the mobile app is causing excessive battery drain.
+3. Note down recommendations for improving the app's battery efficiency and overall tech sustainability.
+
+**Expected Result:** Specific areas of concern and potential improvements related to the app's battery usage are documented.
+
+**Step 5:** Implement Improvements (Optional)
+
+1. If possible, implement the recommended improvements identified in the previous step.
+2. Make necessary changes to the app's code, configuration, or design to reduce battery consumption.
+
+**Expected Result:** The app's battery usage should be optimized based on the implemented improvements.
+
+**Postconditions:**
+1. Mobile app battery usage has been assessed using Battery Historian in Docker.
+2. Recommendations for improving battery efficiency and tech sustainability have been documented.
+3. Optional: Implemented improvements have been tested and evaluated for their impact on battery consumption.
+
+**Notes:**
+- Battery Historian provides valuable insights into battery usage but may require understanding of Android internals for effective analysis.
+- This test case provides a general outline; the actual implementation may require adjustments based on the specific app and environment.
