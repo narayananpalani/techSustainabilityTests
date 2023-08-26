@@ -1,0 +1,79 @@
+Test Case: Web Development for SDG Goal 10 and Tech Sustainability using Axe DevTools
+
+**Test Case ID:** WDTST-001  
+**Test Case Title:** Web Development for SDG Goal 10 using Axe DevTools
+
+**Objective:** To ensure that web development adheres to SDG Goal 10 (Reduced Inequalities) and improves tech sustainability by scanning the website using Axe DevTools for accessibility issues.
+
+**Preconditions:**
+1. A web development project is underway.
+2. The website or web application is built using HTML, CSS, and JavaScript.
+3. The website is loaded in a supported web browser.
+4. Axe DevTools browser extension is installed and enabled.
+
+**Test Steps:**
+
+**Step 1:** Launch Website
+
+1. Open a supported web browser.
+2. Load the website or web application that is under development.
+
+**Expected Result:** The website should load without errors and be accessible for testing.
+
+**Step 2:** Open Axe DevTools
+
+1. In the web browser, click on the Axe DevTools browser extension icon.
+2. Select the option to analyze the current page for accessibility issues.
+
+**Expected Result:** The Axe DevTools panel should open and display accessibility results for the current page.
+
+**Step 3:** Perform Accessibility Scan
+
+1. In the Axe DevTools panel, click the "Scan" button to start the accessibility scan.
+2. Wait for the scan to complete.
+
+**Expected Result:** The accessibility scan should run without errors, and the Axe DevTools panel should display a summary of the scan results.
+
+**Step 4:** Review Scan Results
+
+1. Examine the accessibility issues identified in the scan results.
+2. Pay special attention to issues related to SDG Goal 10 (Reduced Inequalities), such as text alternatives for images, color contrast, keyboard navigation, and ARIA roles.
+
+**Expected Result:** The scan results should provide a list of accessibility issues, including descriptions, severity levels, and affected elements.
+
+**Step 5:** Prioritize and Address Issues
+
+1. Prioritize the accessibility issues based on their severity and impact on SDG Goal 10 and overall tech sustainability.
+2. Collaborate with developers, designers, and other team members to create a plan for addressing the identified issues.
+
+**Expected Result:** A prioritized list of accessibility issues to address is created, and a plan is established to fix the issues.
+
+**Step 6:** Implement Fixes
+
+1. Make the necessary changes to the website's code to address the identified accessibility issues.
+2. Verify that the changes have been implemented correctly and do not introduce new issues.
+
+**Expected Result:** The implemented fixes should resolve the identified accessibility issues without causing regressions.
+
+**Step 7:** Re-scan for Accessibility
+
+1. Repeat the accessibility scan using Axe DevTools after implementing the fixes.
+2. Compare the new scan results with the previous results to verify that the issues have been resolved.
+
+**Expected Result:** The new scan results should show improvements, with fewer or no accessibility issues.
+
+**Step 8:** Test with Different Devices and Browsers
+
+1. Test the website on different devices (desktop, tablet, mobile) and in various web browsers.
+2. Ensure that the accessibility improvements are consistent across different platforms.
+
+**Expected Result:** The website should provide a consistent and accessible experience across different devices and browsers.
+
+**Postconditions:**
+1. The website development has been tested and improved for adherence to SDG Goal 10 (Reduced Inequalities) and tech sustainability using Axe DevTools.
+2. Accessibility issues have been addressed, improving the overall accessibility of the website.
+3. Any challenges faced, lessons learned, and implementation details are documented for future reference.
+
+**Notes:**
+- The specific accessibility issues addressed in this test case may vary based on the website's content and context.
+- Collaborative efforts among developers, designers, and accessibility experts are crucial for successful accessibility improvements.
