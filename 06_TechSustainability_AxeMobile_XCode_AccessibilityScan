@@ -1,0 +1,79 @@
+Test Case: Mobile App Optimization through Accessibility Scan using axe-mobile in Xcode to Support SDG Goal No.10 (Reduced Inequalities) for Improved Tech Sustainability
+
+**Test Case ID:** MAAO-SDG10-001  
+**Test Case Title:** Mobile App Optimization through Accessibility Scan using axe-mobile in Xcode for Improved Tech Sustainability
+
+**Objective:** To verify that a mobile app is optimized for accessibility using axe-mobile in Xcode, in support of Sustainable Development Goal (SDG) No.10 (Reduced Inequalities) by ensuring that the app is usable by people with disabilities and provides equal access to technology.
+
+**Preconditions:**
+1. The mobile app under test is built using Xcode and is available for testing.
+2. The axe-mobile extension is integrated into Xcode for accessibility scanning.
+
+**Test Steps:**
+
+**Step 1:** Open the Mobile App in Xcode
+
+1. Launch Xcode.
+2. Open the project for the mobile app to be tested.
+
+**Expected Result:** The project is loaded successfully in Xcode.
+
+**Step 2:** Navigate to the axe-mobile Panel
+
+1. In Xcode, go to "Editor" in the top menu.
+2. Choose "axe-mobile" from the dropdown menu.
+
+**Expected Result:** The axe-mobile panel opens within Xcode.
+
+**Step 3:** Start Accessibility Scan
+
+1. In the axe-mobile panel, click on the "Scan" button.
+2. Select the relevant device simulator or physical device for testing.
+3. Choose the applicable accessibility guidelines (e.g., WCAG 2.0, WCAG 2.1) to scan against.
+
+**Expected Result:** The accessibility scan starts, analyzing the mobile app against the selected accessibility guidelines.
+
+**Step 4:** Review Scan Results
+
+1. After the scan is complete, review the accessibility issues identified by axe-mobile.
+2. Inspect each issue to understand the problem and its impact on accessibility.
+3. Prioritize issues based on their severity and potential impact on users with disabilities.
+
+**Expected Result:** The scan results provide a clear list of accessibility issues, their impact, and recommendations for improvements.
+
+**Step 5:** Fix Accessibility Issues
+
+1. Address each accessibility issue identified in the scan results.
+2. Make necessary code changes, design adjustments, or content modifications to resolve the issues.
+
+**Expected Result:** Accessibility issues are systematically addressed and resolved.
+
+**Step 6:** Rerun Accessibility Scan
+
+1. Re-run the axe-mobile scan on the updated version of the mobile app.
+2. Ensure that all previously identified issues have been resolved.
+
+**Expected Result:** The re-scan shows that the previously identified issues are resolved, and there are no new accessibility concerns.
+
+**Step 7:** Test Accessibility on Device
+
+1. Deploy the mobile app to a real device or simulator.
+2. Interact with the app using various assistive technologies, such as VoiceOver, TalkBack, or Switch Control.
+3. Navigate through the app's interface, perform actions, and access content.
+
+**Expected Result:** The app is accessible and usable using assistive technologies, providing a seamless experience for users with disabilities.
+
+**Step 8:** Repeat Testing for Different Scenarios
+
+1. Test the mobile app in various scenarios, such as different screen sizes, orientations, and font sizes.
+2. Ensure that accessibility remains consistent and effective in all scenarios.
+
+**Expected Result:** Accessibility features remain effective and consistent across various scenarios.
+
+**Postconditions:**
+1. The mobile app has been successfully optimized for accessibility using axe-mobile in Xcode.
+2. Accessibility issues are resolved, improving tech sustainability and supporting SDG Goal No.10 (Reduced Inequalities).
+
+**Notes:**
+- The specific accessibility issues and their resolutions may vary based on the app's design, content, and the chosen accessibility guidelines.
+- Regular accessibility testing and optimization are essential to ensure ongoing support for people with disabilities and contribute to tech sustainability in line with SDG Goal No.10.
