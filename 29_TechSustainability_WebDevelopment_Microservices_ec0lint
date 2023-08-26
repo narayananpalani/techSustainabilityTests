@@ -1,0 +1,84 @@
+Test Case: Web Development Page Scanning using Ec0lint Static Code Analysis
+
+**Test Case ID:** WD-EC0LINT-001  
+**Test Case Title:** Web Development Page Scanning using Ec0lint Static Code Analysis
+
+**Objective:** To verify the functionality of scanning a web development page using Ec0lint static code analysis, including installation, configuration, and scanning process, to improve technological sustainability.
+
+**Preconditions:**
+1. A web development project with HTML, CSS, and JavaScript files is available.
+2. Ec0lint is installed on the development environment.
+3. The project's directory structure and files are ready for scanning.
+
+**Test Steps:**
+
+**Step 1:** Install Ec0lint
+
+1. Open the terminal on the development machine.
+2. Run the command to install Ec0lint globally:  
+   ```
+   npm install -g ec0lint
+   ```
+
+**Expected Result:** Ec0lint should be installed successfully without errors.
+
+**Step 2:** Configure Ec0lint
+
+1. In the terminal, navigate to the root directory of the web development project.
+2. Run the command to generate a configuration file:  
+   ```
+   ec0lint init
+   ```
+3. Follow the prompts to configure Ec0lint settings, including choosing analysis rules, ignoring specific files, etc.
+
+**Expected Result:** The configuration file should be created, and the configuration process should be successful.
+
+**Step 3:** Scan Web Development Page
+
+1. In the terminal, navigate to the root directory of the web development project.
+2. Run the command to initiate the Ec0lint scan:  
+   ```
+   ec0lint
+   ```
+
+**Expected Result:** Ec0lint should start scanning the project files based on the configured settings.
+
+**Step 4:** Analyze Scan Results
+
+1. Observe the terminal output as Ec0lint analyzes the project files.
+2. Review the scan results, including warnings and errors reported by Ec0lint.
+
+**Expected Result:** Ec0lint should identify and report any issues, violations, or potential improvements based on the defined analysis rules.
+
+**Step 5:** Address Detected Issues
+
+1. Open the identified files with reported issues using a code editor.
+2. Locate and modify the code sections where issues were reported to address them.
+3. Save the changes.
+
+**Expected Result:** The code changes should effectively address the reported issues.
+
+**Step 6:** Re-scan the Project
+
+1. In the terminal, navigate to the root directory of the web development project.
+2. Run the Ec0lint scan command again:  
+   ```
+   ec0lint
+   ```
+
+**Expected Result:** After addressing the reported issues, Ec0lint should indicate that the issues have been resolved or no longer appear.
+
+**Step 7:** Verify Improved Tech Sustainability
+
+1. Review the final scan report or terminal output to confirm that all reported issues have been resolved.
+2. Test the web development page in a browser to ensure that the code improvements did not introduce any new issues.
+
+**Expected Result:** The web development page should load and function correctly in the browser, and the code improvements should lead to better technological sustainability.
+
+**Postconditions:**
+1. The web development page has been successfully scanned and improved using Ec0lint static code analysis.
+2. The final scan report and code improvements are documented.
+
+**Notes:**
+- Ec0lint's features, commands, and configuration may vary based on its version and updates.
+- It's important to ensure that the Ec0lint configuration and analysis rules are tailored to the project's requirements and coding standards.
