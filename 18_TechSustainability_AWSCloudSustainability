@@ -1,0 +1,69 @@
+Test Case: AWS Cloud to AWS Customer Carbon Footprint Tool for Tech Sustainability
+
+**Test Case ID:** AWSCCFT-001  
+**Test Case Title:** AWS Cloud to AWS Customer Carbon Footprint Tool for Tech Sustainability
+
+**Objective:** To verify the accuracy and effectiveness of the AWS Cloud to AWS Customer Carbon Footprint Tool in measuring and improving the sustainability of technology operations.
+
+**Preconditions:**
+1. Access to the AWS Management Console and the AWS Customer Carbon Footprint Tool.
+2. AWS resources are actively being used by the customer.
+
+**Test Steps:**
+
+**Step 1:** Access the AWS Customer Carbon Footprint Tool
+
+1. Log in to the AWS Management Console.
+2. Navigate to the "AWS Customer Carbon Footprint Tool" section or service.
+
+**Expected Result:** The AWS Customer Carbon Footprint Tool interface should load successfully.
+
+**Step 2:** Verify Data Collection
+
+1. Ensure that the tool is collecting accurate data about the customer's AWS resource usage, including compute instances, storage, and network traffic.
+2. Verify that the data collection process is ongoing and up-to-date.
+
+**Expected Result:** The tool should accurately collect and update data related to the customer's AWS resource usage.
+
+**Step 3:** Calculate Carbon Footprint
+
+1. Initiate the calculation of the carbon footprint based on the collected data.
+2. Observe the calculation process and results, including metrics such as CO2 emissions and energy consumption.
+
+**Expected Result:** The carbon footprint calculation should be accurate and provide measurable metrics related to the environmental impact of the customer's AWS resource usage.
+
+**Step 4:** Review Recommendations
+
+1. Access the recommendations or suggestions provided by the tool to improve sustainability.
+2. Evaluate the recommendations, which might include optimizing resource usage, leveraging serverless technologies, or choosing energy-efficient instances.
+
+**Expected Result:** The recommendations should be relevant, actionable, and aimed at reducing the carbon footprint of the customer's AWS operations.
+
+**Step 5:** Implement Recommendations
+
+1. Choose and implement some of the provided recommendations from the tool.
+2. Make necessary adjustments to AWS resource configurations based on the recommendations.
+
+**Expected Result:** The customer should be able to successfully implement the recommended changes to their AWS resources.
+
+**Step 6:** Monitor Changes
+
+1. Allow sufficient time for the implemented changes to take effect.
+2. Monitor the tool's dashboard or reports to observe any changes in carbon footprint metrics and resource usage.
+
+**Expected Result:** The implemented changes should reflect in reduced carbon emissions and improved sustainability metrics.
+
+**Step 7:** Verify Reporting and Insights
+
+1. Access the tool's reporting and insights section.
+2. Review generated reports and visualizations that provide insights into the customer's carbon footprint reduction progress.
+
+**Expected Result:** The tool should generate informative reports and visualizations that highlight the customer's efforts and progress toward improved tech sustainability.
+
+**Postconditions:**
+1. The AWS Customer Carbon Footprint Tool's functionality has been tested and verified.
+2. Any discrepancies or issues encountered during testing are documented.
+
+**Notes:**
+- The accuracy of the tool's data collection and calculations is crucial to ensuring reliable carbon footprint assessment.
+- The effectiveness of the tool's recommendations and the ability to track progress over time are essential for achieving meaningful sustainability improvements.
