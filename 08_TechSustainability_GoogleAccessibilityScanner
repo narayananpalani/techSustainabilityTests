@@ -1,0 +1,76 @@
+Test Case: Mobile App Optimization through Accessibility Scan using Google Accessibility Scanner
+
+**Test Case ID:** MAOAS-GAS-001  
+**Test Case Title:** Mobile App Optimization through Accessibility Scan using Google Accessibility Scanner
+
+**Objective:** To verify the optimization of a mobile app's accessibility through an accessibility scan using the Google Accessibility Scanner, promoting SDG Goal No. 10 (Reduced Inequalities) by improving tech sustainability and ensuring digital inclusion.
+
+**Preconditions:**
+1. The mobile app under test is installed on an Android device.
+2. Google Accessibility Scanner is installed on the Android device.
+
+**Test Steps:**
+
+**Step 1:** Access the Google Accessibility Scanner
+
+1. Open the Google Accessibility Scanner app on the Android device.
+
+**Expected Result:** The Google Accessibility Scanner app should open successfully.
+
+**Step 2:** Select the App for Testing
+
+1. In the Google Accessibility Scanner app, tap on "Select app" or a similar option.
+2. Choose the mobile app to be tested from the list of installed apps.
+
+**Expected Result:** The selected app should be successfully loaded for testing in the Google Accessibility Scanner.
+
+**Step 3:** Run Accessibility Scan
+
+1. Initiate the accessibility scan by tapping on the "Analyze" or "Scan" button within the Google Accessibility Scanner app.
+2. Allow the scan to run and analyze the app's accessibility.
+
+**Expected Result:** The accessibility scan should be successfully completed, and the app's accessibility issues should be identified and categorized.
+
+**Step 4:** Review Accessibility Findings
+
+1. After the scan is complete, review the accessibility findings provided by the Google Accessibility Scanner.
+2. Observe the list of issues, warnings, and suggestions related to the app's accessibility.
+
+**Expected Result:** The Google Accessibility Scanner should display a comprehensive list of accessibility issues found within the app.
+
+**Step 5:** Address Accessibility Issues
+
+1. For each identified accessibility issue, follow the provided guidance or recommendations to address the issues.
+2. Make necessary changes to the app's user interface, interactions, and content to improve accessibility.
+
+**Expected Result:** Accessibility issues addressed during testing should result in improved app accessibility.
+
+**Step 6:** Re-run Accessibility Scan (Optional)
+
+1. If changes were made to address accessibility issues, initiate another accessibility scan using the Google Accessibility Scanner.
+2. Review the new scan results to verify if the addressed issues have been resolved.
+
+**Expected Result:** Re-running the scan after addressing accessibility issues should show a reduction in identified issues.
+
+**Step 7:** Verify Accessibility Improvements
+
+1. Manually test the app's user interface, interactions, and content to ensure the addressed accessibility issues have been successfully resolved.
+2. Use assistive technologies (e.g., TalkBack) to navigate the app and ensure the app is now more accessible.
+
+**Expected Result:** The app should exhibit improved accessibility and provide a more inclusive user experience.
+
+**Step 8:** Document and Report
+
+1. Document the accessibility issues identified during the initial scan.
+2. Document the changes made to address those issues.
+3. Provide a summary of the improvements achieved through the accessibility scan and optimization process.
+
+**Expected Result:** A comprehensive document outlining the accessibility testing process, issues, improvements, and outcomes should be created for reporting and documentation purposes.
+
+**Postconditions:**
+1. The mobile app has undergone optimization to improve accessibility through an accessibility scan using the Google Accessibility Scanner.
+2. A report highlighting the accessibility improvements and the impact on tech sustainability has been documented.
+
+**Notes:**
+- The test case is aligned with Sustainable Development Goal (SDG) No. 10: Reduced Inequalities, by promoting digital inclusion through improved accessibility.
+- The specific steps and options within the Google Accessibility Scanner may vary based on app updates and changes.
