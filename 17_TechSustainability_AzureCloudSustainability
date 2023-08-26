@@ -1,0 +1,78 @@
+Test Case: Azure Cloud Footprint Configuration using Power BI Template Apps and Validated Carbon Accounting
+
+**Test Case ID:** ACFTC-001  
+**Test Case Title:** Azure Cloud Footprint Configuration using Power BI Template Apps and Validated Carbon Accounting
+
+**Objective:** To configure an Azure cloud footprint analysis using Power BI template apps and validated carbon accounting, with a focus on improving technology sustainability through the Emissions Impact Dashboard for Azure.
+
+**Preconditions:**
+1. Access to an Azure cloud environment.
+2. Azure services and resources have been utilized.
+
+**Test Steps:**
+
+**Step 1:** Access Azure Portal
+
+1. Log in to the Azure Portal with appropriate credentials.
+2. Ensure the necessary permissions to access Azure resources.
+
+**Expected Result:** Successful login to the Azure Portal and access to Azure resources.
+
+**Step 2:** Navigate to Template Apps
+
+1. In the Azure Portal, navigate to "Template Apps" or "Marketplace".
+2. Search for the "Emissions Impact Dashboard for Azure" Power BI template app.
+3. Select and install the app.
+
+**Expected Result:** The Power BI template app for the "Emissions Impact Dashboard for Azure" is successfully installed.
+
+**Step 3:** Connect Data Source
+
+1. Open the Power BI template app.
+2. Connect the template app to your Azure cloud environment.
+3. Provide necessary credentials and access permissions.
+
+**Expected Result:** The template app successfully establishes a connection with your Azure cloud environment.
+
+**Step 4:** Configure Emissions Data
+
+1. Follow the prompts to configure emissions data sources.
+2. Provide necessary information about resource usage and emissions factors.
+
+**Expected Result:** Emissions data is accurately configured and integrated into the template app.
+
+**Step 5:** Generate Emissions Impact Dashboard
+
+1. Use the Power BI template app to generate the "Emissions Impact Dashboard for Azure".
+2. Verify the accuracy of data visualization and metrics presented.
+
+**Expected Result:** The dashboard is generated with accurate emissions impact data, including visualizations and metrics.
+
+**Step 6:** Validate Carbon Accounting
+
+1. Compare the calculated emissions impact data from the Power BI dashboard with validated carbon accounting data (if available).
+2. Verify that the emissions impact data aligns closely with validated accounting data.
+
+**Expected Result:** The emissions impact data from the dashboard aligns closely with validated carbon accounting, demonstrating accurate calculations.
+
+**Step 7:** Analyze and Optimize
+
+1. Analyze the emissions impact data on the dashboard.
+2. Identify areas where emissions can be reduced or optimized.
+3. Implement strategies and changes to improve technology sustainability.
+
+**Expected Result:** Actionable insights are derived from the emissions impact data, leading to informed decisions for improving technology sustainability.
+
+**Step 8:** Monitor Progress
+
+1. Regularly revisit the "Emissions Impact Dashboard for Azure" to monitor progress.
+2. Observe how implemented changes impact emissions data over time.
+
+**Expected Result:** The dashboard provides ongoing insights into the effects of sustainability initiatives.
+
+**Postconditions:**
+1. The Azure cloud footprint analysis has been successfully configured using Power BI template apps and validated carbon accounting.
+2. Improvements to technology sustainability have been identified and implemented based on the emissions impact data.
+
+**Notes:**
+- The specific steps and interfaces mentioned in this test case may vary based on the actual Azure environment, Power BI template app version, and associated tools.
